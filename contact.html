@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact et devis | Aubry Concept Paysage, Orgeval</title>
+<meta name="description" content="Contactez Aubry Concept Paysage à Orgeval (78) : formulaire de devis et téléphone 06 18 83 30 51.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231f3a2d'/%3E%3Cpath d='M14 46c0-18 10-30 36-32-2 22-12 32-30 32' fill='%23b5623b'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="https://webaunet.github.io/aubry-concept-paysage/" aria-label="Aubry Concept Paysage, accueil">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#1f3a2d"/><path d="M14 47c0-19 10-31 37-33-2 23-13 33-31 33" fill="#b5623b"/><path d="M14 47C22 36 31 28 44 21" stroke="#f1ebdf" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
+      <span><b>Aubry Concept</b><small>Paysage</small></span>
+    </a>
+    <nav class="nav" id="menu" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="approche.html">Notre approche</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-tools">
+      <a class="btn btn-terre header-call" href="tel:+33618833051" aria-label="Appeler le 06 18 83 30 51"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span>06 18 83 30 51</span></a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-head" aria-labelledby="h1"><div class="wrap"><span class="eyebrow">Contact</span><h1 id="h1">Parlons de votre projet</h1><p>Remplissez ce court formulaire : il prépare un message prêt à envoyer par SMS à Antoine Aubry.</p></div><svg class="vague" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60V28C240 -6 480 -6 720 24S1200 58 1440 22V60z"/></svg></section>
+<section class="section" aria-label="Formulaire de devis"><div class="wrap"><div class="contact-grid"><div><div class="formcard"><form id="devis" novalidate>
+<div class="field"><label for="nom">Votre nom</label><input id="nom" name="nom" type="text" autocomplete="name" required aria-describedby="err-nom"><p class="err" id="err-nom" role="alert"></p></div>
+<div class="field"><label for="tel">Votre téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" required inputmode="tel" aria-describedby="err-tel"><p class="err" id="err-tel" role="alert"></p></div>
+<div class="field"><label for="commune">Votre commune</label><input id="commune" name="commune" type="text" autocomplete="address-level2" required aria-describedby="err-commune"><p class="err" id="err-commune" role="alert"></p></div>
+<div class="field"><label for="besoin">Votre besoin</label><select id="besoin" name="besoin" required aria-describedby="err-besoin"><option value="">Choisir…</option><option>Terrasse ou dallage</option><option>Allée ou muret en pierre</option><option>Création de jardin</option><option>Plantations</option><option>Entretien (tonte, taille)</option><option>Autre projet</option></select><p class="err" id="err-besoin" role="alert"></p></div>
+<div class="field"><label for="message">Message <small>(facultatif)</small></label><textarea id="message" name="message" autocomplete="off"></textarea></div>
+<button class="btn btn-terre" type="submit">Préparer mon message</button></form></div>
+<div class="recap" id="recap" aria-live="polite"><h2>Votre message est prêt</h2><p>Rien n'est envoyé automatiquement : choisissez comment le transmettre.</p><pre id="recap-text"></pre><div class="cta-row"><a class="btn btn-terre" id="sms" href="sms:+33618833051">Envoyer par SMS</a><button class="btn btn-ligne" type="button" id="copier">Copier</button><a class="btn btn-ligne" href="tel:+33618833051">Appeler</a></div><p id="copie-ok" role="status"></p></div></div>
+<aside class="side"><h2>Aubry Concept Paysage</h2><p>Antoine Aubry<br>Orgeval (78), Yvelines</p><a class="tel" href="tel:+33618833051">06 18 83 30 51</a><a class="btn btn-clair" href="tel:+33618833051">Appeler</a></aside></div></div></section>
+<section class="final sol" aria-labelledby="t9"><div class="section" style="min-height:50vh"><div class="wrap"><span class="eyebrow">Plutôt par téléphone ?</span><h2 id="t9">Un appel suffit</h2><p>Antoine Aubry répond à vos questions sur votre projet d'aménagement.</p><a class="tel-big" href="tel:+33618833051">06 18 83 30 51</a></div></div></section>
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <span>© Aubry Concept Paysage · Orgeval (78) · Maquette</span>
+    <nav aria-label="Pied de page"><a href="index.html">Accueil</a><a href="prestations.html">Prestations</a><a href="approche.html">Notre approche</a><a href="contact.html">Contact</a><a href="tel:+33618833051">06 18 83 30 51</a></nav>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
